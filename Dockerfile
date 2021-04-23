@@ -6,7 +6,6 @@ ENV CGO_ENABLED=0
 
 ADD go.mod .
 ADD go.sum .
-
 RUN go mod download
 
 COPY . .
