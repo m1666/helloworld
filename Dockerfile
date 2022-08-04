@@ -4,6 +4,8 @@ WORKDIR /data
 ENV GOPROXY=https://goproxy.cn,direct
 ENV CGO_ENABLED=0
 
+
+
 ADD go.mod .
 ADD go.sum .
 
